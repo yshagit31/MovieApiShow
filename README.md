@@ -21,6 +21,6 @@ A simple React application that fetches and displays a dataset of movies. This a
 - **Material-UI**: React components for faster and easier web development.
 - **CSS**: For styling the application.
 
-## Usage
+ ## Usage
 
 Once the application is running, you will see the movies dataset displayed in a data grid. While the data is being fetched, a loading message will be displayed. If there’s an error fetching the data, an appropriate error message will be shown.
