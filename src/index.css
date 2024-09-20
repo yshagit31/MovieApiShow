@@ -1,0 +1,12 @@
+
+.heading{
+    text-align: center;
+    color:rgb(230, 99, 39);
+  }
+  #root{
+    padding: 0;
+    margin: 0;
+  }
+  .table{
+    padding-left: 250px;
+  }
