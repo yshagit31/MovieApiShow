@@ -1,8 +1,26 @@
-# React + Vite
+# Movies Dataset Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays a dataset of movies. This app uses Material-UI for the data grid and handles loading and error states gracefully.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies](#technologies)
+- [Usage](#usage)
+
+## Features
+
+- Fetches movie data from a remote API.
+- Displays movie information in a user-friendly data grid.
+- Handles loading states and displays error messages if the data fetch fails.
+- Supports pagination and checkbox selection for rows.
+
+## Technologies
+
+- **React**: JavaScript library for building user interfaces.
+- **Material-UI**: React components for faster and easier web development.
+- **CSS**: For styling the application.
+
+## Usage
+
+Once the application is running, you will see the movies dataset displayed in a data grid. While the data is being fetched, a loading message will be displayed. If there’s an error fetching the data, an appropriate error message will be shown.
